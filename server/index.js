@@ -8,13 +8,13 @@ app.post('/', (req, res) => {
   console.log('Data posted');
   const { username, mailId, subject, message } = req.body;
   console.log(req.body); 
-  var transporter = nodemailer.createTransport({
-  host: "sandbox.smtp.mailtrap.io",
-  port: 2525,
-  auth: {
-    username: "229b611babd1e6",
-    password: "88148aff15b263"
-  }
+   const transporter = nodemailer.createTransport({
+    host: 'smtp.ethereal.email',
+    port: 587,
+    auth: {
+        user: 'tatum.doyle0@ethereal.email',
+        pass: 'GX5sDXXgM6jSWjCqNG'
+    }
 });
 let mailOpt = { 
     from: 'test mailing<smsvia85@gmail.com>',
