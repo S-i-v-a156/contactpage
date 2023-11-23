@@ -63,7 +63,7 @@ const Contact = () => {
               <input type="text" className="form-control" id="username" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Your Name" required />
             </div>
             <div className="mb-3">
-              <input type="text" className="form-control" id="mailId" value={mailId} onChange={(e) => setMailId(e.target.value)} placeholder="Your Mail" required />
+              <input type="email" className="form-control" id="mailId" value={mailId} onChange={(e) => setMailId(e.target.value)} placeholder="Your Mail" required />
             </div>
             <div className="mb-3">
               <input type="text" className="form-control" id="subject" value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="Subject" />
