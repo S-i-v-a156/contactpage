@@ -1,0 +1,45 @@
+
+.logo {
+    margin-bottom: 50px;
+  }
+  .nav-bar {
+    background-color: #333;
+    padding: 10px; 
+    display: flex;
+    align-items: center; 
+  }
+  .logo img {
+    width: 100px; 
+    height: auto; 
+  }
+  .nav-bar a {
+    color: white; 
+    text-decoration: none;
+    margin: 9px 10px;
+  }
+form{
+    padding: 9px;;
+}
+.form-control{
+  border: 1px solid rgb(140, 138, 138);
+
+}
+.contact-data {
+  margin-top: 20px; 
+}
+.contact-data .row {
+  margin-bottom: 10px; 
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 20px; 
+}
+.contact-data img {
+  width: 55px; 
+  height: 30px; 
+  margin-right: 10px;
+}
+
+.contact-data p {
+  margin: 0; 
+  font-size: 14px;
+}
